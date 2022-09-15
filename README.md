@@ -11,7 +11,7 @@ When we want to do some changes
 sudo rm -rf build
 docker-compose up
 ```
-Then in next tty cd to /build/_build/html .And run this command
+**Note:** Then in next tty cd to /build/_build/html .And run this command
 ```bash
 python3 -m http.server 80 (worked)
 ```
